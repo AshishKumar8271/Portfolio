@@ -1,9 +1,15 @@
 {
-  "homepage":"http://AshishKumar8271.github.io/Portfolio",
+  "homepage": "http://AshishKumar8271.github.io/Portfolio",
   "name": "reactashish",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.11",
+    "@mui/lab": "^5.0.0-alpha.146",
+    "@mui/material": "^5.14.11",
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -19,6 +25,8 @@
     "react-router-dom": "^6.16.0",
     "react-scripts": "5.0.1",
     "redux": "^4.2.1",
+    "styled-components": "^6.0.8",
+    "typewriter-effect": "^2.21.0",
     "values.js": "^2.1.1",
     "web-vitals": "^2.1.4"
   },
