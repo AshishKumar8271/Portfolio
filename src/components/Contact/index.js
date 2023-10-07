@@ -126,6 +126,7 @@ const Contact = () => {
 
   //hooks
   const [open, setOpen] = React.useState(false);
+  // const [message,setmessage] = useState("");
   const form = useRef();
 
   const handleSubmit = (e) => {
@@ -133,6 +134,7 @@ const Contact = () => {
     emailjs.sendForm('service_72a8tyj', 'template_g8xoo0b', form.current, 'jpGU91gTQBRdeZzc0')
       .then((result) => {
         setOpen(true);
+        console.log(result);
         form.current.reset();
       }, (error) => {
         console.log(error.text);
@@ -142,6 +144,7 @@ const Contact = () => {
 
 
   return (
+    <>
     <Container id="contact">
       <Wrapper>
         <Title>Contact</Title>
@@ -154,15 +157,16 @@ const Contact = () => {
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
+      </Wrapper>
+    </Container>
         <Snackbar
           open={open}
-          autoHideDuration={6000}
+          autoHideDuration={1000000}
           onClose={()=>setOpen(false)}
           message="Email sent successfully!"
           severity="success"
         />
-      </Wrapper>
-    </Container>
+      </>
   )
 }
 
