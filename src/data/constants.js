@@ -161,8 +161,29 @@ export const projects = [
     github: "https://github.com/AshishKumar8271/keepClone",
     webapp: "https://ashishkumar8271.github.io/keepClone/",
   },
+
   {
     id: 2,
+    title: "Mobile Shoppping Cart",
+    date: "Sep 2023 - Oct 2023",
+    description:
+      "Designed and developed a Mobile Shopping Cart web app that shows the amount of mobiles their total prices. Implemented key features such as remove the item, increase and decrease amount of items and clear the cart.",
+    image:
+      project4,
+    tags: [
+      "Vite",
+      "React Js",
+      "TypeScript",
+      "Tailwind CSS",
+      "HTML",
+    ],
+    category: "web app",
+    github: "https://github.com/AshishKumar8271/Cart",
+    webapp: "https://cart-alpha-beryl.vercel.app/",
+  },
+
+  {
+    id: 3,
     title: "Grocery Bud",
     date: "Aug 2023 - Sept 2023",
     description:
@@ -175,24 +196,7 @@ export const projects = [
     webapp: "https://ashishkumar8271.github.io/reactTodo/",
   },
 
-  {
-    id: 3,
-    title: "Mobile Shoppping Cart",
-    date: "Sep 2023 - Oct 2023",
-    description:
-      "Designed and developed a Mobile Shopping Cart web app that shows the amount of mobiles their total prices. Implemented key features such as remove the item, increase and decrease amount of items and clear the cart. It uses Axios to fetch the data",
-    image:
-      project4,
-    tags: [
-      "React Js",
-      "Axios",
-      "Redux Toolkit",
-      "CSS",
-    ],
-    category: "web app",
-    github: "https://github.com/AshishKumar8271/Cart",
-    webapp: "https://ashishkumar8271.github.io/Cart/",
-  },
+  
 
 ];
 
