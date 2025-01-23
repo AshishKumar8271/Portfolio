@@ -1,7 +1,8 @@
-import project1 from "../images/Project_1.png";
+import project1 from '../images/Project_1.PNG';
 import project2 from "../images/Project_2.png";
 import project3 from "../images/Project_3.png";
 import project4 from "../images/Project_4.png";
+import project5 from "../images/Project_5.png";
 
 export const Bio = {
   name: "Ashish Kumar",
@@ -104,8 +105,8 @@ export const education = [
     img: "https://images.collegedunia.com/public/college_data/images/logos/1462272460logo.jpg?h=80&w=80&mode=stretch",
     school: "Maharaja Agrasen University , Himachal Pradesh",
     date: "2021 - 2024",
-    grade: "7.76 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Application at Maharaja Agrasen University , Himachal Pradesh. I have completed 4 semesters and have a CGPA of 7.76. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+    grade: "8.08 CGPA",
+    desc: "Highly motivated and results-oriented recent graduate with a Bachelor of Computer Applications from Maharaja Agrasen University, Himachal Pradesh. Proven academic record with a CGPA of 8.08, demonstrating strong foundational knowledge in core computer science disciplines. Proficient in HTML,CSS,JavaScript, React Js, C++, Data Structures and Algorithms. Eager to contribute to a challenging and dynamic work environment where I can apply my technical skills and problem-solving abilities to develop innovative and impactful solutions.",
     degree: "Bachelor of Computer Application - BCA",
   },
   {
@@ -131,26 +132,40 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "BBC News Clone",
+    date: "July 2024 - Sept 2024",
+    description:
+    "Developed a responsive clone of the BBC News website using a modern tech stack including React.js, Tailwind CSS, TypeScript, Redux Toolkit, and Firebase. This project involved real-time news data fetching and display, a sleek UI designed with Tailwind CSS, and robust state management with Redux Toolkit. TypeScript was utilized for type safety, and the application features enhanced user experience with search functionality, category filters, and responsive design for optimal viewing across devices.",
+      
+    image:
+      project1,
+    tags: ["TypeScript","React Js","Redux Toolkit","TailwindCSS","Firebase"],
+    category: "web app",
+    github: "https://github.com/AshishKumar8271/BBC_Clone",
+    webapp: "https://bbc-clone-chi.vercel.app/",
+  },
+  {
+    id: 1,
     title: "Beach Resort",
     date: "Sep 2023 - Oct 2023",
     description:
     "Designed and developed a frontend web application that allows users to view the list of rooms in a beach resort, where user to view the rooms according to their room type, no of guests and according to their price range, etc",
       
     image:
-      project1,
+      project2,
     tags: ["React Js", "useContext"],
     category: "web app",
     github: "https://github.com/AshishKumar8271/Beach-Resort",
     webapp: "https://ashishkumar8271.github.io/Beach-Resort/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Keep Clone",
     date: "July 2023 - Aug 2023",
     description:
       "Developed the GKeep, a project to manage your all notes and save them in localStorage. It help the users to save their importand notes. This application is developed by the pure javascript and CSS and HTML.",
     image:
-    project2,
+    project3,
     tags: [
       "Vanilla Js",
       "LocalStorage",
@@ -163,7 +178,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Mobile Shoppping Cart",
     date: "Sep 2023 - Oct 2023",
     description:
@@ -183,13 +198,13 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Grocery Bud",
     date: "Aug 2023 - Sept 2023",
     description:
       "Grocery Bud is a web app in which users can make a list of groceries to buy. It provides features like edit, delete, and clear List. It provides a clean and attractive interface to the users with ease of use.",
     image:
-      project3,
+      project5,
     tags: ["React Js", "HTML", "CSS"],
     category: "web app",
     github: "https://github.com/AshishKumar8271/reactTodo",
